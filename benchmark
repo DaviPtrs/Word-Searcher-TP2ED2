@@ -1,0 +1,3 @@
+#!/bin/bash
+
+python3 scripts/run.py && python3 scripts/medias.py > outputNF.csv && python3 scripts/aux.py outputNF.csv > output.csv && rm outputNF.csv

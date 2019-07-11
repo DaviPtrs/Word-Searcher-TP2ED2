@@ -1,0 +1,40 @@
+-=-=-=-=-=-=-=-=-=-TRABALHO 2 DE ESTRUTURA DE DADOS-=-=-=-=-=-=-=-=-
+                        _                           _               
+                       | |                         | |              
+ __      _____  _ __ __| |  ___  ___  __ _ _ __ ___| |__   ___ _ __ 
+ \ \ /\ / / _ \| '__/ _` | / __|/ _ \/ _` | '__/ __| '_ \ / _ \ '__|
+  \ V  V / (_) | | | (_| | \__ \  __/ (_| | | | (__| | | |  __/ |   
+   \_/\_/ \___/|_|  \__,_| |___/\___|\__,_|_|  \___|_| |_|\___|_|   
+                                                                   
+-=-=-=-=-=-=-=-=-=-=-=DAVI PETRIS E JAIRO MARCOS-=-=-=-=-=-=-=-=-=-
+
+Compile antes de executar usando
+	$ make
+
+Uso: ./main [files] [options] [N param]
+
+Files:
+  Você deverá passar os caminhos dos arquivos a serem indexados.
+  O programa não possui limite de arquivos, podendo ser passados
+  quantos arquivos o computador do usuário aguentar carregar.
+
+Options:
+  Essas opções são obrigatórias para o funcionamento do programa
+
+  0                     Escolhe a opção de Lista Encadeada
+  1                     Escolhe a opção de Árvore Binária
+  2                     Escolhe a opção de Árvore AVL
+  3                     Escolhe a opção de Árvore Prefixada
+  4                     Escolhe a opção de Tabela Hash
+  5                     Escolhe a opção de Avaliação de Desempenho (Benchmark)
+
+N param:
+  Essa opção indica quantas palavras serão pesquisadas (default = 0)
+  Caso não seja indicada, será assumido N = 0
+  Se a opção 0 for escolhida e não for escolhido a função Benchmark,
+  além de inserir os elementos na estrutura, também serão impressos 
+  os conteúdos das mesmas
+  A opção de benchmark junto com N = 0 apenas irá inserir os elementos
+  
+  0			Apenas insere e printa a estrutura (default)
+  [1..n]		Pesquisa de 1 até n palavras dadas	
